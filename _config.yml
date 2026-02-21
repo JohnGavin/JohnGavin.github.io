@@ -1,0 +1,9 @@
+exclude:
+  - content
+  - themes
+  - data
+  - static
+  - resources
+  - config.toml
+  - "*.Rproj"
+  - public
