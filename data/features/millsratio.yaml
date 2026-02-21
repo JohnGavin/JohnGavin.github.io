@@ -1,0 +1,5 @@
+weight: 1
+name: "Mills Ratio R Package"
+icon: "fa fa-chart-line"
+url: "https://johngavin.github.io/millsratio/"
+description: "Compute and compare Mills ratios for normal, t, and exponential distributions. Explore the t(30) paradox where heavier tails produce larger Mills ratios. Interactive Shiny dashboard and full Nix reproducibility. [GitHub](https://github.com/JohnGavin/millsratio)"
