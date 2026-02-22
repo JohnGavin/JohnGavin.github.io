@@ -3,8 +3,6 @@ layout: default
 title: John Gavin
 ---
 
-# John Gavin
-
 R developer and data scientist.
 
 ## Projects
