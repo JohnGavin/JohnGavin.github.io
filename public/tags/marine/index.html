@@ -7,7 +7,7 @@
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <title>Pseudo</title>
+  <title>Marine</title>
   <meta name="author" content="DevCows" />
   
   
@@ -66,9 +66,9 @@
   
   <meta property="og:locale" content="en_us">
   <meta property="og:site_name" content="Universal">
-  <meta property="og:title" content="Pseudo">
+  <meta property="og:title" content="Marine">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://john-gavin.netlify.app/categories/pseudo/" />
+  <meta property="og:url" content="https://john-gavin.netlify.app/tags/marine/" />
   <meta property="og:description" content="Site template made by devcows using hugo">
   <meta property="og:image" content="https://john-gavin.netlify.app/img/sharing-default.png">
   <meta property="og:image:type" content="image/png">
@@ -79,13 +79,13 @@
     <meta property="og:image:height" content="420">
   
   
-  <meta property="og:updated_time" content="2015-08-03T13:39:46&#43;0200">
+  <meta property="og:updated_time" content="2026-02-20T12:00:00Z">
   
 
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@GoHugoIO">
-  <meta name="twitter:title" content="Pseudo">
+  <meta name="twitter:title" content="Marine">
   
   <meta name="twitter:image" content="https://john-gavin.netlify.app/img/sharing-default.png">
   
@@ -108,9 +108,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
-                    <img src="/img/logo.png" alt="Pseudo logo" class="hidden-xs hidden-sm">
-                    <img src="/img/logo-small.png" alt="Pseudo logo" class="visible-xs visible-sm">
-                    <span class="sr-only">Pseudo - go to homepage</span>
+                    <img src="/img/logo.png" alt="Marine logo" class="hidden-xs hidden-sm">
+                    <img src="/img/logo-small.png" alt="Marine logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Marine - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -188,7 +188,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Pseudo</h1>
+                <h1>Marine</h1>
             </div>
         </div>
     </div>
@@ -208,48 +208,63 @@
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="https://john-gavin.netlify.app/blog/2015/08/03/hugo-is-for-lovers/">
+                                      <a href="https://john-gavin.netlify.app/blog/2026/02/20/irishbuoys-r-package/">
                                           
-                                          <img src="/img/banners/banner-3.jpg" class="img-responsive" alt="">
+                                          <img src="/img/banners/banner-1.jpg" class="img-responsive" alt="">
                                           
                                       </a>
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="https://john-gavin.netlify.app/blog/2015/08/03/hugo-is-for-lovers/">Hugo is for lovers</a></h2>
+                                    <h2><a href="https://john-gavin.netlify.app/blog/2026/02/20/irishbuoys-r-package/">irishbuoys: Analyzing Ireland&#39;s Weather Buoy Network in R</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           
                                           
                                           
-                                          in <a href="/categories/pseudo">pseudo</a>
+                                          in <a href="/categories/projects">projects</a>
                                           
                                           
 
                                         </p>
                                         
                                         <p class="date-comments">
-                                            <a href="https://john-gavin.netlify.app/blog/2015/08/03/hugo-is-for-lovers/"><i class="far fa-calendar"></i> August 3, 2015</a>
+                                            <a href="https://john-gavin.netlify.app/blog/2026/02/20/irishbuoys-r-package/"><i class="far fa-calendar"></i> February 20, 2026</a>
                                         </p>
                                         
                                     </div>
-                                    <p class="intro"><h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
-<p>Goto <a href="https://github.com/spf13/hugo/releases">hugo releases</a> and download the
-appropriate version for your os and architecture.</p>
-<p>Save it somewhere specific as we will be using it in the next step.</p>
-<p>More complete instructions are available at <a href="/overview/installing/">installing hugo</a></p>
-<h2 id="step-2-build-the-docs">Step 2. Build the Docs</h2>
-<p>Hugo has its own example site which happens to also be the documentation site
-you are reading right now.</p>
-<p>Follow the following steps:</p>
-<ol>
-<li>Clone the <a href="http://github.com/spf13/hugo">hugo repository</a></li>
-<li>Go into the repo</li>
-<li>Run hugo in server mode and build the docs</li>
-<li>Open your browser to http://localhost:1313</li>
-</ol>
-<p>Corresponding pseudo commands:</p></p>
-                                    <p class="read-more"><a href="https://john-gavin.netlify.app/blog/2015/08/03/hugo-is-for-lovers/" class="btn btn-template-main">Continue reading</a>
+                                    <p class="intro"><p><strong><a href="https://github.com/JohnGavin/irishbuoys">irishbuoys</a></strong> is an R package for downloading, processing, and analyzing data from the <a href="https://www.marine.ie/Home/site-area/data-services/real-time-observations/marine-weather-buoy-observation-network">Irish Weather Buoy Network</a>.</p>
+<h3 id="why-irishbuoys">Why irishbuoys?</h3>
+<ul>
+<li><strong>Live ERDDAP data</strong> &ndash; fetches real-time and historical wave, wind, and atmospheric observations from 6 Marine Institute buoys around Ireland&rsquo;s coast</li>
+<li><strong>DuckDB-backed storage</strong> &ndash; incremental updates stored in a local DuckDB database for fast SQL analytics on millions of rows</li>
+<li><strong>Reproducible with Nix</strong> &ndash; fully reproducible environment via <a href="https://github.com/ropensci/rix">rix</a>; no &ldquo;works on my machine&rdquo; problems</li>
+</ul>
+<h3 id="links">Links</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Resource</th>
+          <th>URL</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>GitHub</td>
+          <td><a href="https://github.com/JohnGavin/irishbuoys">github.com/JohnGavin/irishbuoys</a></td>
+      </tr>
+      <tr>
+          <td>Documentation</td>
+          <td><a href="https://johngavin.github.io/irishbuoys/">johngavin.github.io/irishbuoys</a></td>
+      </tr>
+      <tr>
+          <td>r-universe</td>
+          <td><a href="https://johngavin.r-universe.dev/irishbuoys">johngavin.r-universe.dev</a></td>
+      </tr>
+  </tbody>
+</table>
+<p>Install with:</p></p>
+                                    <p class="read-more"><a href="https://john-gavin.netlify.app/blog/2026/02/20/irishbuoys-r-package/" class="btn btn-template-main">Continue reading</a>
                                     </p>
                                 </div>
                             </div>
@@ -325,7 +340,7 @@ you are reading right now.</p>
                 <a href="/categories/projects">projects (1)</a>
             </li>
             
-            <li class="active">
+            <li>
                 <a href="/categories/pseudo">pseudo (1)</a>
             </li>
             
@@ -375,7 +390,7 @@ you are reading right now.</p>
                 <a href="/tags/ipsum"><i class="fas fa-tags"></i> ipsum</a>
             </li>
             
-            <li>
+            <li class="active">
                 <a href="/tags/marine"><i class="fas fa-tags"></i> marine</a>
             </li>
             
