@@ -7,6 +7,14 @@ R developer and data scientist.
 
 ## Projects
 
+### [micromort](https://johngavin.github.io/micromort/) — Curated Micromort and Microlife Risk Datasets
+
+- **Atomic risk decomposition** breaking composite activities into individual risk components with hedgeability analysis
+- **Interactive dashboards** for risk comparison, lifestyle tradeoffs, and "Which is riskier?" quizzes
+- **91 common activities** with micromort values, cross-referenced against medical, transport, and lifestyle categories
+
+[GitHub](https://github.com/JohnGavin/micromort) | [Documentation](https://johngavin.github.io/micromort/) | [r-universe](https://johngavin.r-universe.dev/micromort)
+
 ### [irishbuoys](https://johngavin.github.io/irishbuoys/) — Irish Weather Buoy Network Analysis
 
 - **Live marine data** from 6 Irish coastal buoys via ERDDAP, with DuckDB-backed storage for fast analytics on millions of rows
