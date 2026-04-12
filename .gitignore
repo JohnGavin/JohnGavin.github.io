@@ -1,6 +1,5 @@
 # Quarto
 _site/
-docs/
 .quarto/
 _freeze/
 
