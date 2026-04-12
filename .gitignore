@@ -1,7 +1,21 @@
+# Quarto
+_site/
+docs/
+.quarto/
+_freeze/
+
+# R
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
-blogdown
-.DS_Store # if a windows user, Thumbs.db instead
-public/ # if using Netlify
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Nix
+result
+
+/.quarto/
+**/*.quarto_ipynb

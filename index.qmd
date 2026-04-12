@@ -1,0 +1,58 @@
+---
+title: "John Gavin"
+subtitle: "R developer and data scientist"
+---
+
+## Sample projects
+
+### [micromort](https://johngavin.github.io/micromort/) — Curated Micromort and Microlife Risk Datasets
+
+- **Atomic risk decomposition** breaking composite activities into individual risk components with hedgeability analysis
+- **Interactive dashboards** for risk comparison, lifestyle tradeoffs, and "Which is riskier?" quizzes
+- **91 common activities** with micromort values, cross-referenced against medical, transport, and lifestyle categories
+
+[GitHub](https://github.com/JohnGavin/micromort) | [Documentation](https://johngavin.github.io/micromort/) | [r-universe](https://johngavin.r-universe.dev/micromort)
+
+### [irishbuoys](https://johngavin.github.io/irishbuoys/) — Irish Weather Buoy Network Analysis
+
+- **Live marine data** from 6 Irish coastal buoys via ERDDAP, with DuckDB-backed storage for fast analytics on millions of rows
+- **Predictive wave models** using Random Forest, with interactive dashboards and automated weekly data updates
+- **Fully reproducible** with Nix — one command (`./default.sh`) gives you every dependency, every time
+
+[GitHub](https://github.com/JohnGavin/irishbuoys) | [Documentation](https://johngavin.github.io/irishbuoys/) | [r-universe](https://johngavin.r-universe.dev/irishbuoys)
+
+### [randomwalk](https://johngavin.github.io/randomwalk/) — Asynchronous Pixel Walking Simulation
+
+- **Fractal pattern generation** through parallel random walk simulations on a grid, with configurable movement neighborhoods and boundary behaviors
+- **Parallel processing** with chunked mode for superior collision detection, plus browser-based demos via WebR/Shinylive requiring no installation
+- **Interactive Shiny dashboard** for real-time parameter adjustment, with built-in plotting and statistics tracking
+
+[GitHub](https://github.com/JohnGavin/randomwalk) | [Documentation](https://johngavin.github.io/randomwalk/) | [r-universe](https://johngavin.r-universe.dev/randomwalk)
+
+### [historical](https://johngavin.github.io/historical/) — Historical Finance Database
+
+- **Multi-asset coverage** spanning equities (FAANG, S&P 500), crypto (major coins, stablecoins), macro (rates, yield curve, credit spreads, VIX), and Fama-French factors
+- **Targets pipeline + DuckDB/Parquet** for fast analytics on decades of daily data, fully reproducible with Nix
+- **Interactive dashboards** with price history, returns, correlations, and coverage summaries per asset class
+
+[GitHub](https://github.com/JohnGavin/historical) | [Examples](https://johngavin.github.io/historical/examples.html) | [Dashboard](https://johngavin.github.io/historical/dashboard.html)
+
+**Start here:** [Examples dashboard](https://johngavin.github.io/historical/examples.html) — tabbed views of equity moving averages, crypto correlations, yield curves, and factor returns with click-to-zoom charts.
+
+### [footbet](https://johngavin.github.io/footbet/) — European Football Betting Analytics
+
+- **Sharp odds data** from football-data.co.uk and Pinnacle, covering major European leagues with decades of match history
+- **Poisson and Dixon-Coles models** for match outcome prediction, with Kelly criterion staking for bankroll management
+- **End-to-end workflow** from data cleaning through EDA to model fitting and betting strategy, documented as vignettes
+
+[GitHub](https://github.com/JohnGavin/footbet) | [Documentation](https://johngavin.github.io/footbet/) | [Articles](https://johngavin.github.io/footbet/articles/index.html)
+
+**Start here:** [Data Sources & Coverage](https://johngavin.github.io/footbet/articles/data-sources.html) → [EDA](https://johngavin.github.io/footbet/articles/eda.html) → [Models & Betting Strategy](https://johngavin.github.io/footbet/articles/models-betting.html)
+
+### [millsratio](https://johngavin.github.io/millsratio/) — Mills Ratio Analysis and Tail Thickness
+
+- **Computes and visualises Mills ratios** across probability distributions to reveal fundamental differences in tail behaviour
+- **Interactive 12-page dashboard** showing how distributions appear similar centrally but diverge dramatically in the tails
+- **Practical analysis tools** for comparing distributions, verifying asymptotic behaviour, and Monte Carlo validation
+
+[GitHub](https://github.com/JohnGavin/millsratio) | [Documentation](https://johngavin.github.io/millsratio/) | [r-universe](https://johngavin.r-universe.dev/millsratio)
