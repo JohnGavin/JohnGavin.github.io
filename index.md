@@ -7,6 +7,28 @@ R developer and data scientist.
 
 ## Projects
 
+### [historical](https://johngavin.github.io/historical/) — Historical Finance Database
+
+- **Multi-asset coverage** spanning equities (FAANG, S&P 500), crypto (major coins, stablecoins), macro (rates, yield curve, credit spreads, VIX), and Fama-French factors
+- **Targets pipeline + DuckDB/Parquet** for fast analytics on decades of daily data, fully reproducible with Nix
+- **Interactive dashboards** with price history, returns, correlations, and coverage summaries per asset class
+
+[GitHub](https://github.com/JohnGavin/historical) | [Examples](https://johngavin.github.io/historical/examples.html) | [Dashboard](https://johngavin.github.io/historical/dashboard.html)
+
+**Start here:** [Examples dashboard](https://johngavin.github.io/historical/examples.html) — tabbed views of equity moving averages, crypto correlations, yield curves, and factor returns with click-to-zoom charts.
+
+### [footbet](https://johngavin.github.io/footbet/) — European Football Betting Analytics
+
+- **Sharp odds data** from football-data.co.uk and Pinnacle, covering major European leagues with decades of match history
+- **Poisson and Dixon-Coles models** for match outcome prediction, with Kelly criterion staking for bankroll management
+- **End-to-end workflow** from data cleaning through EDA to model fitting and betting strategy, documented as vignettes
+
+[GitHub](https://github.com/JohnGavin/footbet) | [Documentation](https://johngavin.github.io/footbet/) | [Articles](https://johngavin.github.io/footbet/articles/index.html)
+
+**Start here:** [Data Sources & Coverage](https://johngavin.github.io/footbet/articles/data-sources.html) → [EDA](https://johngavin.github.io/footbet/articles/eda.html) → [Models & Betting Strategy](https://johngavin.github.io/footbet/articles/models-betting.html)
+
+---
+
 ### [micromort](https://johngavin.github.io/micromort/) — Curated Micromort and Microlife Risk Datasets
 
 - **Atomic risk decomposition** breaking composite activities into individual risk components with hedgeability analysis
