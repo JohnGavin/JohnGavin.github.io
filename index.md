@@ -27,8 +27,6 @@ R developer and data scientist.
 
 **Start here:** [Data Sources & Coverage](https://johngavin.github.io/footbet/articles/data-sources.html) → [EDA](https://johngavin.github.io/footbet/articles/eda.html) → [Models & Betting Strategy](https://johngavin.github.io/footbet/articles/models-betting.html)
 
----
-
 ### [micromort](https://johngavin.github.io/micromort/) — Curated Micromort and Microlife Risk Datasets
 
 - **Atomic risk decomposition** breaking composite activities into individual risk components with hedgeability analysis
