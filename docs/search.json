@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "DEPLOY.html",
-    "href": "DEPLOY.html",
-    "title": "Deployment",
-    "section": "",
-    "text": "This is a Quarto website served via GitHub Pages from master /docs.\n\n\n# Edit content\nvim index.qmd    # main project index\nvim projects.qmd # detailed project page\n\n# Build\nquarto render    # outputs to docs/\n\n# Deploy\ngit add docs/ index.qmd projects.qmd\ngit commit -m \"update site\"\ngit push         # GitHub Pages auto-deploys from master /docs\n\n\n\nThis is a username.github.io repo (user site). User sites must serve from the default branch (master). The gh-pages branch approach silently 404s — the GitHub API accepts it and reports status: built but the content is never served.\nOnly project repos (e.g. JohnGavin/micromort) can use gh-pages.\n\n\n\n\nPre 2026-04-12: Hugo site with hugo-universal-theme (24MB, 1,335 files, CVE-prone npm deps)\n2026-04-12: Migrated to Quarto (3 source files, zero npm deps, cosmo theme)\nLesson learned: quarto publish gh-pages produced a 404 for 15 minutes before we realised the user-site constraint"
-  },
-  {
-    "objectID": "DEPLOY.html#how-to-update",
-    "href": "DEPLOY.html#how-to-update",
-    "title": "Deployment",
-    "section": "",
-    "text": "# Edit content\nvim index.qmd    # main project index\nvim projects.qmd # detailed project page\n\n# Build\nquarto render    # outputs to docs/\n\n# Deploy\ngit add docs/ index.qmd projects.qmd\ngit commit -m \"update site\"\ngit push         # GitHub Pages auto-deploys from master /docs"
-  },
-  {
-    "objectID": "DEPLOY.html#critical-do-not-use-quarto-publish-gh-pages",
-    "href": "DEPLOY.html#critical-do-not-use-quarto-publish-gh-pages",
-    "title": "Deployment",
-    "section": "",
-    "text": "This is a username.github.io repo (user site). User sites must serve from the default branch (master). The gh-pages branch approach silently 404s — the GitHub API accepts it and reports status: built but the content is never served.\nOnly project repos (e.g. JohnGavin/micromort) can use gh-pages."
-  },
-  {
-    "objectID": "DEPLOY.html#history",
-    "href": "DEPLOY.html#history",
-    "title": "Deployment",
-    "section": "",
-    "text": "Pre 2026-04-12: Hugo site with hugo-universal-theme (24MB, 1,335 files, CVE-prone npm deps)\n2026-04-12: Migrated to Quarto (3 source files, zero npm deps, cosmo theme)\nLesson learned: quarto publish gh-pages produced a 404 for 15 minutes before we realised the user-site constraint"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Sample projects",
