@@ -6,11 +6,7 @@ website:
   title: "John Gavin"
   description: "R developer and data scientist"
   navbar:
-    left:
-      - text: "Home"
-        href: index.qmd
-      - text: "Projects"
-        href: projects.qmd
+    background: dark
     right:
       - icon: github
         href: https://github.com/JohnGavin

@@ -1,9 +1,8 @@
 ---
-title: "John Gavin"
-subtitle: "R developer and data scientist"
+title: "Sample projects"
+title-block-style: none
 ---
 
-## Sample projects
 
 ### [micromort](https://johngavin.github.io/micromort/) — Curated Micromort and Microlife Risk Datasets
 

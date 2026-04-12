@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="R packages and data pipelines">
 
-<title>Projects – John Gavin</title>
+<title>deploy – John Gavin</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -41,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6366b8537f22fe2521dbe9c1a8a1a9f2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7a27e6e35752434d3649471b98d59e2b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -89,16 +123,6 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
-</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/JohnGavin"> <i class="bi bi-github" role="img">
@@ -118,75 +142,43 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Projects</h1>
-</div>
-
-<div>
-  <div class="description">
-    R packages and data pipelines
-  </div>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
-
-
-<section id="irishbuoys" class="level2">
-<h2 class="anchored" data-anchor-id="irishbuoys">irishbuoys</h2>
-<p><strong>Website:</strong> <a href="https://johngavin.github.io/irishbuoys/">johngavin.github.io/irishbuoys</a></p>
-<ul>
-<li>Real-time Irish Weather Buoy Network data from Marine Institute ERDDAP</li>
-<li>Interactive dashboards with wave height, wind speed, and rogue wave detection</li>
-<li>DuckDB-backed data pipeline with quality validation</li>
-</ul>
-<p>Key pages:</p>
-<ul>
-<li><a href="https://johngavin.github.io/irishbuoys/articles/dashboard_static.html">Static Dashboard</a></li>
-<li><a href="https://johngavin.github.io/irishbuoys/articles/wave_analysis.html">Wave Analysis</a></li>
-<li><a href="https://johngavin.github.io/irishbuoys/reference/">API Reference</a></li>
-</ul>
-<hr>
+<section id="deployment" class="level1">
+<h1>Deployment</h1>
+<p>This is a <strong>Quarto website</strong> served via GitHub Pages from <code>master /docs</code>.</p>
+<section id="how-to-update" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-update">How to update</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Edit content</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">vim</span> index.qmd    <span class="co"># main project index</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">vim</span> projects.qmd <span class="co"># detailed project page</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Build</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render    <span class="co"># outputs to docs/</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Deploy</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add docs/ index.qmd projects.qmd</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"update site"</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push         <span class="co"># GitHub Pages auto-deploys from master /docs</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="footbet" class="level2">
-<h2 class="anchored" data-anchor-id="footbet">footbet</h2>
-<p><strong>Repository:</strong> <a href="https://github.com/JohnGavin/footbet">github.com/JohnGavin/footbet</a></p>
-<ul>
-<li>Football match prediction models (Poisson GLM, Dixon-Coles, Bayesian brms)</li>
-<li>Data ingestion from football-data.co.uk with robust parsing</li>
-<li>Expected Goals (xG) features via FBref/worldfootballR</li>
-<li>Kelly criterion betting simulation and value detection</li>
-</ul>
-<p>Tags: R, statistics, sports-analytics, Bayesian</p>
-<hr>
+<section id="critical-do-not-use-quarto-publish-gh-pages" class="level2">
+<h2 class="anchored" data-anchor-id="critical-do-not-use-quarto-publish-gh-pages">CRITICAL: Do NOT use <code>quarto publish gh-pages</code></h2>
+<p>This is a <code>username.github.io</code> repo (user site). User sites <strong>must</strong> serve from the default branch (<code>master</code>). The <code>gh-pages</code> branch approach silently 404s — the GitHub API accepts it and reports <code>status: built</code> but the content is never served.</p>
+<p>Only project repos (e.g.&nbsp;<code>JohnGavin/micromort</code>) can use <code>gh-pages</code>.</p>
 </section>
-<section id="llm" class="level2">
-<h2 class="anchored" data-anchor-id="llm">llm</h2>
-<p><strong>Website:</strong> <a href="https://johngavin.github.io/llm/">johngavin.github.io/llm</a></p>
+<section id="history" class="level2">
+<h2 class="anchored" data-anchor-id="history">History</h2>
 <ul>
-<li>LLM usage tracking and cost analytics</li>
-<li>Session efficiency metrics and model comparisons</li>
-<li>Claude Max5 block history and token analysis</li>
-</ul>
-<p>Key pages:</p>
-<ul>
-<li><a href="https://johngavin.github.io/llm/articles/telemetry.html">Telemetry Dashboard</a></li>
-<li><a href="https://johngavin.github.io/llm/reference/">API Reference</a></li>
+<li><strong>Pre 2026-04-12:</strong> Hugo site with <code>hugo-universal-theme</code> (24MB, 1,335 files, CVE-prone npm deps)</li>
+<li><strong>2026-04-12:</strong> Migrated to Quarto (3 source files, zero npm deps, cosmo theme)</li>
+<li><strong>Lesson learned:</strong> <code>quarto publish gh-pages</code> produced a 404 for 15 minutes before we realised the user-site constraint</li>
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -1,44 +1,37 @@
 [
   {
+    "objectID": "DEPLOY.html",
+    "href": "DEPLOY.html",
+    "title": "Deployment",
+    "section": "",
+    "text": "This is a Quarto website served via GitHub Pages from master /docs.\n\n\n# Edit content\nvim index.qmd    # main project index\nvim projects.qmd # detailed project page\n\n# Build\nquarto render    # outputs to docs/\n\n# Deploy\ngit add docs/ index.qmd projects.qmd\ngit commit -m \"update site\"\ngit push         # GitHub Pages auto-deploys from master /docs\n\n\n\nThis is a username.github.io repo (user site). User sites must serve from the default branch (master). The gh-pages branch approach silently 404s — the GitHub API accepts it and reports status: built but the content is never served.\nOnly project repos (e.g. JohnGavin/micromort) can use gh-pages.\n\n\n\n\nPre 2026-04-12: Hugo site with hugo-universal-theme (24MB, 1,335 files, CVE-prone npm deps)\n2026-04-12: Migrated to Quarto (3 source files, zero npm deps, cosmo theme)\nLesson learned: quarto publish gh-pages produced a 404 for 15 minutes before we realised the user-site constraint"
+  },
+  {
+    "objectID": "DEPLOY.html#how-to-update",
+    "href": "DEPLOY.html#how-to-update",
+    "title": "Deployment",
+    "section": "",
+    "text": "# Edit content\nvim index.qmd    # main project index\nvim projects.qmd # detailed project page\n\n# Build\nquarto render    # outputs to docs/\n\n# Deploy\ngit add docs/ index.qmd projects.qmd\ngit commit -m \"update site\"\ngit push         # GitHub Pages auto-deploys from master /docs"
+  },
+  {
+    "objectID": "DEPLOY.html#critical-do-not-use-quarto-publish-gh-pages",
+    "href": "DEPLOY.html#critical-do-not-use-quarto-publish-gh-pages",
+    "title": "Deployment",
+    "section": "",
+    "text": "This is a username.github.io repo (user site). User sites must serve from the default branch (master). The gh-pages branch approach silently 404s — the GitHub API accepts it and reports status: built but the content is never served.\nOnly project repos (e.g. JohnGavin/micromort) can use gh-pages."
+  },
+  {
+    "objectID": "DEPLOY.html#history",
+    "href": "DEPLOY.html#history",
+    "title": "Deployment",
+    "section": "",
+    "text": "Pre 2026-04-12: Hugo site with hugo-universal-theme (24MB, 1,335 files, CVE-prone npm deps)\n2026-04-12: Migrated to Quarto (3 source files, zero npm deps, cosmo theme)\nLesson learned: quarto publish gh-pages produced a 404 for 15 minutes before we realised the user-site constraint"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "John Gavin",
+    "title": "Sample projects",
     "section": "",
-    "text": "Atomic risk decomposition breaking composite activities into individual risk components with hedgeability analysis\nInteractive dashboards for risk comparison, lifestyle tradeoffs, and “Which is riskier?” quizzes\n91 common activities with micromort values, cross-referenced against medical, transport, and lifestyle categories\n\nGitHub | Documentation | r-universe\n\n\n\n\nLive marine data from 6 Irish coastal buoys via ERDDAP, with DuckDB-backed storage for fast analytics on millions of rows\nPredictive wave models using Random Forest, with interactive dashboards and automated weekly data updates\nFully reproducible with Nix — one command (./default.sh) gives you every dependency, every time\n\nGitHub | Documentation | r-universe\n\n\n\n\nFractal pattern generation through parallel random walk simulations on a grid, with configurable movement neighborhoods and boundary behaviors\nParallel processing with chunked mode for superior collision detection, plus browser-based demos via WebR/Shinylive requiring no installation\nInteractive Shiny dashboard for real-time parameter adjustment, with built-in plotting and statistics tracking\n\nGitHub | Documentation | r-universe\n\n\n\n\nMulti-asset coverage spanning equities (FAANG, S&P 500), crypto (major coins, stablecoins), macro (rates, yield curve, credit spreads, VIX), and Fama-French factors\nTargets pipeline + DuckDB/Parquet for fast analytics on decades of daily data, fully reproducible with Nix\nInteractive dashboards with price history, returns, correlations, and coverage summaries per asset class\n\nGitHub | Examples | Dashboard\nStart here: Examples dashboard — tabbed views of equity moving averages, crypto correlations, yield curves, and factor returns with click-to-zoom charts.\n\n\n\n\nSharp odds data from football-data.co.uk and Pinnacle, covering major European leagues with decades of match history\nPoisson and Dixon-Coles models for match outcome prediction, with Kelly criterion staking for bankroll management\nEnd-to-end workflow from data cleaning through EDA to model fitting and betting strategy, documented as vignettes\n\nGitHub | Documentation | Articles\nStart here: Data Sources & Coverage → EDA → Models & Betting Strategy\n\n\n\n\nComputes and visualises Mills ratios across probability distributions to reveal fundamental differences in tail behaviour\nInteractive 12-page dashboard showing how distributions appear similar centrally but diverge dramatically in the tails\nPractical analysis tools for comparing distributions, verifying asymptotic behaviour, and Monte Carlo validation\n\nGitHub | Documentation | r-universe"
-  },
-  {
-    "objectID": "index.html#sample-projects",
-    "href": "index.html#sample-projects",
-    "title": "John Gavin",
-    "section": "",
-    "text": "Atomic risk decomposition breaking composite activities into individual risk components with hedgeability analysis\nInteractive dashboards for risk comparison, lifestyle tradeoffs, and “Which is riskier?” quizzes\n91 common activities with micromort values, cross-referenced against medical, transport, and lifestyle categories\n\nGitHub | Documentation | r-universe\n\n\n\n\nLive marine data from 6 Irish coastal buoys via ERDDAP, with DuckDB-backed storage for fast analytics on millions of rows\nPredictive wave models using Random Forest, with interactive dashboards and automated weekly data updates\nFully reproducible with Nix — one command (./default.sh) gives you every dependency, every time\n\nGitHub | Documentation | r-universe\n\n\n\n\nFractal pattern generation through parallel random walk simulations on a grid, with configurable movement neighborhoods and boundary behaviors\nParallel processing with chunked mode for superior collision detection, plus browser-based demos via WebR/Shinylive requiring no installation\nInteractive Shiny dashboard for real-time parameter adjustment, with built-in plotting and statistics tracking\n\nGitHub | Documentation | r-universe\n\n\n\n\nMulti-asset coverage spanning equities (FAANG, S&P 500), crypto (major coins, stablecoins), macro (rates, yield curve, credit spreads, VIX), and Fama-French factors\nTargets pipeline + DuckDB/Parquet for fast analytics on decades of daily data, fully reproducible with Nix\nInteractive dashboards with price history, returns, correlations, and coverage summaries per asset class\n\nGitHub | Examples | Dashboard\nStart here: Examples dashboard — tabbed views of equity moving averages, crypto correlations, yield curves, and factor returns with click-to-zoom charts.\n\n\n\n\nSharp odds data from football-data.co.uk and Pinnacle, covering major European leagues with decades of match history\nPoisson and Dixon-Coles models for match outcome prediction, with Kelly criterion staking for bankroll management\nEnd-to-end workflow from data cleaning through EDA to model fitting and betting strategy, documented as vignettes\n\nGitHub | Documentation | Articles\nStart here: Data Sources & Coverage → EDA → Models & Betting Strategy\n\n\n\n\nComputes and visualises Mills ratios across probability distributions to reveal fundamental differences in tail behaviour\nInteractive 12-page dashboard showing how distributions appear similar centrally but diverge dramatically in the tails\nPractical analysis tools for comparing distributions, verifying asymptotic behaviour, and Monte Carlo validation\n\nGitHub | Documentation | r-universe"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Website: johngavin.github.io/irishbuoys\n\nReal-time Irish Weather Buoy Network data from Marine Institute ERDDAP\nInteractive dashboards with wave height, wind speed, and rogue wave detection\nDuckDB-backed data pipeline with quality validation\n\nKey pages:\n\nStatic Dashboard\nWave Analysis\nAPI Reference"
-  },
-  {
-    "objectID": "projects.html#irishbuoys",
-    "href": "projects.html#irishbuoys",
-    "title": "Projects",
-    "section": "",
-    "text": "Website: johngavin.github.io/irishbuoys\n\nReal-time Irish Weather Buoy Network data from Marine Institute ERDDAP\nInteractive dashboards with wave height, wind speed, and rogue wave detection\nDuckDB-backed data pipeline with quality validation\n\nKey pages:\n\nStatic Dashboard\nWave Analysis\nAPI Reference"
-  },
-  {
-    "objectID": "projects.html#footbet",
-    "href": "projects.html#footbet",
-    "title": "Projects",
-    "section": "footbet",
-    "text": "footbet\nRepository: github.com/JohnGavin/footbet\n\nFootball match prediction models (Poisson GLM, Dixon-Coles, Bayesian brms)\nData ingestion from football-data.co.uk with robust parsing\nExpected Goals (xG) features via FBref/worldfootballR\nKelly criterion betting simulation and value detection\n\nTags: R, statistics, sports-analytics, Bayesian"
-  },
-  {
-    "objectID": "projects.html#llm",
-    "href": "projects.html#llm",
-    "title": "Projects",
-    "section": "llm",
-    "text": "llm\nWebsite: johngavin.github.io/llm\n\nLLM usage tracking and cost analytics\nSession efficiency metrics and model comparisons\nClaude Max5 block history and token analysis\n\nKey pages:\n\nTelemetry Dashboard\nAPI Reference"
+    "text": "micromort — Curated Micromort and Microlife Risk Datasets\n\nAtomic risk decomposition breaking composite activities into individual risk components with hedgeability analysis\nInteractive dashboards for risk comparison, lifestyle tradeoffs, and “Which is riskier?” quizzes\n91 common activities with micromort values, cross-referenced against medical, transport, and lifestyle categories\n\nGitHub | Documentation | r-universe\n\n\nirishbuoys — Irish Weather Buoy Network Analysis\n\nLive marine data from 6 Irish coastal buoys via ERDDAP, with DuckDB-backed storage for fast analytics on millions of rows\nPredictive wave models using Random Forest, with interactive dashboards and automated weekly data updates\nFully reproducible with Nix — one command (./default.sh) gives you every dependency, every time\n\nGitHub | Documentation | r-universe\n\n\nrandomwalk — Asynchronous Pixel Walking Simulation\n\nFractal pattern generation through parallel random walk simulations on a grid, with configurable movement neighborhoods and boundary behaviors\nParallel processing with chunked mode for superior collision detection, plus browser-based demos via WebR/Shinylive requiring no installation\nInteractive Shiny dashboard for real-time parameter adjustment, with built-in plotting and statistics tracking\n\nGitHub | Documentation | r-universe\n\n\nhistorical — Historical Finance Database\n\nMulti-asset coverage spanning equities (FAANG, S&P 500), crypto (major coins, stablecoins), macro (rates, yield curve, credit spreads, VIX), and Fama-French factors\nTargets pipeline + DuckDB/Parquet for fast analytics on decades of daily data, fully reproducible with Nix\nInteractive dashboards with price history, returns, correlations, and coverage summaries per asset class\n\nGitHub | Examples | Dashboard\nStart here: Examples dashboard — tabbed views of equity moving averages, crypto correlations, yield curves, and factor returns with click-to-zoom charts.\n\n\nfootbet — European Football Betting Analytics\n\nSharp odds data from football-data.co.uk and Pinnacle, covering major European leagues with decades of match history\nPoisson and Dixon-Coles models for match outcome prediction, with Kelly criterion staking for bankroll management\nEnd-to-end workflow from data cleaning through EDA to model fitting and betting strategy, documented as vignettes\n\nGitHub | Documentation | Articles\nStart here: Data Sources & Coverage → EDA → Models & Betting Strategy\n\n\nmillsratio — Mills Ratio Analysis and Tail Thickness\n\nComputes and visualises Mills ratios across probability distributions to reveal fundamental differences in tail behaviour\nInteractive 12-page dashboard showing how distributions appear similar centrally but diverge dramatically in the tails\nPractical analysis tools for comparing distributions, verifying asymptotic behaviour, and Monte Carlo validation\n\nGitHub | Documentation | r-universe"
   }
 ]
