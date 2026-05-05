@@ -28,6 +28,14 @@ title-block-style: none
 
 [GitHub](https://github.com/JohnGavin/randomwalk) | [Documentation](https://johngavin.github.io/randomwalk/) | [r-universe](https://johngavin.r-universe.dev/randomwalk)
 
+### [urban_planning](https://johngavin.github.io/urban_planning/) — TU Wien Raumplanung Reihungstest Study Dashboard
+
+- **Exam preparation template** for the [Bachelor Raumplanung und Raumordnung](https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning) entrance exam at TU Wien (Reihungstest, 10 July 2026)
+- **Fork-and-customise workflow** via [Claude Cowork](https://claude.ai/code) — students paste a single prompt and get their own cloud-backed copy with no programming required
+- **Interactive study tooling** with a live demo, designed as a reusable scaffold for any timed-entrance-exam revision
+
+[GitHub](https://github.com/JohnGavin/urban_planning) | [Live demo](https://johngavin.github.io/urban_planning/)
+
 ### [historical](https://johngavin.github.io/historical/) — Historical Finance Database
 
 - **Multi-asset coverage** spanning equities (FAANG, S&P 500), crypto (major coins, stablecoins), macro (rates, yield curve, credit spreads, VIX), and Fama-French factors
