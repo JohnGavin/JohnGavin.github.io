@@ -28,14 +28,6 @@ title-block-style: none
 
 [GitHub](https://github.com/JohnGavin/randomwalk) | [Documentation](https://johngavin.github.io/randomwalk/) | [r-universe](https://johngavin.r-universe.dev/randomwalk)
 
-### [urban_planning](https://johngavin.github.io/urban_planning/) — TU Wien Raumplanung Reihungstest Study Dashboard
-
-- **Exam preparation template** for the [Bachelor Raumplanung und Raumordnung](https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning) entrance exam at TU Wien (Reihungstest, 10 July 2026)
-- **Fork-and-customise workflow** via [Claude Cowork](https://claude.ai/code) — students paste a single prompt and get their own cloud-backed copy with no programming required
-- **Interactive study tooling** with a live demo, designed as a reusable scaffold for any timed-entrance-exam revision
-
-[GitHub](https://github.com/JohnGavin/urban_planning) | [Live demo](https://johngavin.github.io/urban_planning/)
-
 ### [historical](https://johngavin.github.io/historical/) — Historical Finance Database
 
 - **Multi-asset coverage** spanning equities (FAANG, S&P 500), crypto (major coins, stablecoins), macro (rates, yield curve, credit spreads, VIX), and Fama-French factors
@@ -45,6 +37,22 @@ title-block-style: none
 [GitHub](https://github.com/JohnGavin/historical) | [Examples](https://johngavin.github.io/historical/examples.html) | [Dashboard](https://johngavin.github.io/historical/dashboard.html)
 
 **Start here:** [Examples dashboard](https://johngavin.github.io/historical/examples.html) — tabbed views of equity moving averages, crypto correlations, yield curves, and factor returns with click-to-zoom charts.
+
+### [urban_planning](https://johngavin.github.io/urban_planning/) — TU Wien Raumplanung Reihungstest Study Dashboard
+
+- **Exam preparation template** for the [Bachelor Raumplanung und Raumordnung](https://www.tuwien.at/en/studies/studies/bachelor-programmes/urban-and-regional-planning) entrance exam at TU Wien (Reihungstest, 10 July 2026)
+- **Fork-and-customise workflow** via [Claude Cowork](https://claude.ai/code) — students paste a single prompt and get their own cloud-backed copy with no programming required
+- **Interactive study tooling** with a live demo, designed as a reusable scaffold for any timed-entrance-exam revision
+
+[GitHub](https://github.com/JohnGavin/urban_planning) | [Live demo](https://johngavin.github.io/urban_planning/)
+
+### [llmtelemetry](https://johngavin.github.io/llmtelemetry/) — LLM Usage Telemetry & Cost Tracking
+
+- **Cost tracking and reporting** for daily Claude Code use, with auto-refresh every 12 hours via launchd and unified DuckDB storage
+- **Calibration and Sessions dashboards** rendered as a static Quarto site, fed from local prediction logs and `unified.duckdb`
+- **Cross-project view** — discovers prediction JSONLs across all repos and aggregates Brier-score calibration over time
+
+[GitHub](https://github.com/JohnGavin/llmtelemetry) | [Dashboard](https://johngavin.github.io/llmtelemetry/)
 
 ### [footbet](https://johngavin.github.io/footbet/) — European Football Betting Analytics
 
