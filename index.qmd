@@ -32,11 +32,11 @@ title-block-style: none
 
 - **Multi-asset coverage** spanning equities (FAANG, S&P 500), crypto (major coins, stablecoins), macro (rates, yield curve, credit spreads, VIX), and Fama-French factors
 - **Targets pipeline + DuckDB/Parquet** for fast analytics on decades of daily data, fully reproducible with Nix
-- **Interactive dashboards** with price history, returns, correlations, and coverage summaries per asset class
+- **11 interactive dashboards** covering per-asset-class dataset coverage, a strategy leaderboard with equity curves and bootstrap confidence intervals, and 155 years of equity-premium evidence across 18 countries
 
-[GitHub](https://github.com/JohnGavin/historical) | [Examples](https://johngavin.github.io/historical/examples.html) | [Dashboard](https://johngavin.github.io/historical/dashboard.html)
+[GitHub](https://github.com/JohnGavin/historical) | [Leaderboard](https://johngavin.github.io/historical/leaderboard.html) | [Evidence & Context](https://johngavin.github.io/historical/evidence.html)
 
-**Start here:** [Examples dashboard](https://johngavin.github.io/historical/examples.html) — tabbed views of equity moving averages, crypto correlations, yield curves, and factor returns with click-to-zoom charts.
+**Start here:** [Strategy Leaderboard](https://johngavin.github.io/historical/leaderboard.html) — rankings, equity curves, and feature importance across all 6 strategies, with a transposed metrics table, bootstrap-CI table, monthly-returns heatmap, and correlation matrix.
 
 ### [urban_planning](https://johngavin.github.io/urban_planning/) — TU Wien Raumplanung Reihungstest Study Dashboard
 
